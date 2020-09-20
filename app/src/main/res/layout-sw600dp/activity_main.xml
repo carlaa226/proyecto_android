@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleX="2"
+    android:scaleY="2"
+    android:translationX="30dp"
+    android:translationY="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="50dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="@string/titulo_app"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:translationX="670dp"
+        android:translationY="220dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:text="@string/boton_app"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:translationX="615dp"
+        android:translationY="240dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="586dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/app_name"
+        android:scaleX="1.3"
+        android:scaleY="1.3"
+        android:translationX="350dp"
+        android:translationY="-60dp"
+        android:translationZ="-3dp"
+        app:srcCompat="@drawable/marcianito_miprimer_proyecto_android" />
+
+</RelativeLayout>
